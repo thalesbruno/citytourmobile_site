@@ -10,6 +10,7 @@ function rolar_para(elemento) {
 }
 
 /**/
+
 largura = $(window).width();
 
 if (largura < 400) {
@@ -40,3 +41,4 @@ else if (largura < 1300) {
 		});
 	}
 }
+
