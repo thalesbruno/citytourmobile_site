@@ -24,7 +24,7 @@
 
     <!-- Custom styles for this template -->
     <link href="static/css/carousel.css" rel="stylesheet">
-    <link href="static/css/style.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">    
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -179,5 +179,13 @@
     <script src="static/js/bootstrap.min.js"></script>
     <script src="static/js/docs.min.js"></script>
     <script src="static/js/functions.js"></script>
+        <script type="text/javascript">
+      var supportsOrientationChange = "onorientationchange" in window,
+      orientationEvent = supportsOrientationChange ? "orientationchange" : "resize";
+
+      window.addEventListener(orientationEvent, function() {
+        load_carousel();
+      }, false);
+    </script>
   </body>
 </html>
