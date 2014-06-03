@@ -12,9 +12,6 @@
 	height: auto !important;
 } */
 
-img {
-
-}
 
 .azul {
 	border-color: #3498db;
@@ -22,4 +19,30 @@ img {
 
 #sobre a {
 	cursor: pointer;
+}
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+	height: 500px;
+	text-align: center;
+	background-image: url('../images/background.png');
+}
+
+#logo {
+	margin: auto;
+}
+
+@media (max-width: 400px) {
+  #itens a {
+    display: block;
+    margin-bottom: 3px;
+  }
 }
